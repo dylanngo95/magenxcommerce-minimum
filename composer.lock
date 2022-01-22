@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "84a038a09377767994c35054755641ba",
+    "content-hash": "b266e5df4a182f97c072f942cb85714b",
     "packages": [
         {
             "name": "brick/math",
@@ -3277,6 +3277,50 @@
             "time": "2021-10-22T05:37:01+00:00"
         },
         {
+            "name": "magenxcommerce/module-admin-notification",
+            "version": "100.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magenxcommerce/module-admin-notification.git",
+                "reference": "a9d4b866cf7a209e706e7796b2d80fe3119d16a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magenxcommerce/module-admin-notification/zipball/a9d4b866cf7a209e706e7796b2d80fe3119d16a5",
+                "reference": "a9d4b866cf7a209e706e7796b2d80fe3119d16a5",
+                "shasum": ""
+            },
+            "require": {
+                "lib-libxml": "*",
+                "magenxcommerce/framework": "103.0.*",
+                "magenxcommerce/module-backend": "102.0.*",
+                "magenxcommerce/module-config": "101.2.*",
+                "magenxcommerce/module-media-storage": "100.4.*",
+                "magenxcommerce/module-store": "101.1.*",
+                "magenxcommerce/module-ui": "101.2.*",
+                "php": "~7.3.0||~7.4.0"
+            },
+            "replace": {
+                "magento/module-admin-notification": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\AdminNotification\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A",
+            "time": "2021-10-20T06:17:16+00:00"
+        },
+        {
             "name": "magenxcommerce/module-advanced-search",
             "version": "100.4.1",
             "source": {
@@ -4167,6 +4211,64 @@
             "time": "2021-10-20T06:30:33+00:00"
         },
         {
+            "name": "magenxcommerce/module-configurable-product",
+            "version": "100.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magenxcommerce/module-configurable-product.git",
+                "reference": "1866dd4871469ed750aca3385002348d2126819c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magenxcommerce/module-configurable-product/zipball/1866dd4871469ed750aca3385002348d2126819c",
+                "reference": "1866dd4871469ed750aca3385002348d2126819c",
+                "shasum": ""
+            },
+            "require": {
+                "magenxcommerce/framework": "103.0.*",
+                "magenxcommerce/module-backend": "102.0.*",
+                "magenxcommerce/module-catalog": "104.0.*",
+                "magenxcommerce/module-catalog-inventory": "100.4.*",
+                "magenxcommerce/module-checkout": "100.4.*",
+                "magenxcommerce/module-customer": "103.0.*",
+                "magenxcommerce/module-eav": "102.1.*",
+                "magenxcommerce/module-media-storage": "100.4.*",
+                "magenxcommerce/module-quote": "101.2.*",
+                "magenxcommerce/module-store": "101.1.*",
+                "magenxcommerce/module-ui": "101.2.*",
+                "php": "~7.3.0||~7.4.0"
+            },
+            "replace": {
+                "magento/module-configurable-product": "*"
+            },
+            "suggest": {
+                "magenxcommerce/module-configurable-sample-data": "Sample Data version: 100.4.*",
+                "magenxcommerce/module-msrp": "100.4.*",
+                "magenxcommerce/module-product-links-sample-data": "Sample Data version: 100.4.*",
+                "magenxcommerce/module-product-video": "100.4.*",
+                "magenxcommerce/module-sales": "103.0.*",
+                "magenxcommerce/module-sales-rule": "101.2.*",
+                "magenxcommerce/module-tax": "100.4.*",
+                "magenxcommerce/module-webapi": "100.4.*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\ConfigurableProduct\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A",
+            "time": "2021-10-20T06:25:37+00:00"
+        },
+        {
             "name": "magenxcommerce/module-contact",
             "version": "100.4.3",
             "source": {
@@ -4207,6 +4309,48 @@
             ],
             "description": "N/A",
             "time": "2021-10-20T06:20:41+00:00"
+        },
+        {
+            "name": "magenxcommerce/module-cookie",
+            "version": "100.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magenxcommerce/module-cookie.git",
+                "reference": "0b80563ff7f45aba0483c412c8850c6f304121e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magenxcommerce/module-cookie/zipball/0b80563ff7f45aba0483c412c8850c6f304121e5",
+                "reference": "0b80563ff7f45aba0483c412c8850c6f304121e5",
+                "shasum": ""
+            },
+            "require": {
+                "magenxcommerce/framework": "103.0.*",
+                "magenxcommerce/module-store": "101.1.*",
+                "php": "~7.3.0||~7.4.0"
+            },
+            "replace": {
+                "magento/module-cookie": "*"
+            },
+            "suggest": {
+                "magenxcommerce/module-backend": "102.0.*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\Cookie\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A",
+            "time": "2021-10-20T06:30:19+00:00"
         },
         {
             "name": "magenxcommerce/module-cron",
@@ -5263,6 +5407,54 @@
             ],
             "description": "N/A",
             "time": "2021-10-20T06:27:46+00:00"
+        },
+        {
+            "name": "magenxcommerce/module-product-video",
+            "version": "100.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magenxcommerce/module-product-video.git",
+                "reference": "6e192220c113654215c1f47f08df69e489882bf1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magenxcommerce/module-product-video/zipball/6e192220c113654215c1f47f08df69e489882bf1",
+                "reference": "6e192220c113654215c1f47f08df69e489882bf1",
+                "shasum": ""
+            },
+            "require": {
+                "magenxcommerce/framework": "103.0.*",
+                "magenxcommerce/magento-composer-installer": "*",
+                "magenxcommerce/module-backend": "102.0.*",
+                "magenxcommerce/module-catalog": "104.0.*",
+                "magenxcommerce/module-eav": "102.1.*",
+                "magenxcommerce/module-media-storage": "100.4.*",
+                "magenxcommerce/module-store": "101.1.*",
+                "php": "~7.3.0||~7.4.0"
+            },
+            "replace": {
+                "magento/module-product-video": "*"
+            },
+            "suggest": {
+                "magenxcommerce/module-config": "101.2.*",
+                "magenxcommerce/module-customer": "103.0.*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\ProductVideo\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "Add Video to Products",
+            "time": "2021-10-20T06:22:48+00:00"
         },
         {
             "name": "magenxcommerce/module-quote",
@@ -6963,6 +7155,113 @@
             "time": "2021-11-30T19:35:32+00:00"
         },
         {
+            "name": "paragonie/constant_time_encoding",
+            "version": "v2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/constant_time_encoding.git",
+                "reference": "9229e15f2e6ba772f0c55dd6986c563b937170a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/constant_time_encoding/zipball/9229e15f2e6ba772f0c55dd6986c563b937170a8",
+                "reference": "9229e15f2e6ba772f0c55dd6986c563b937170a8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7|^8"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6|^7|^8|^9",
+                "vimeo/psalm": "^1|^2|^3|^4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ParagonIE\\ConstantTime\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Steve 'Sc00bz' Thomas",
+                    "email": "steve@tobtu.com",
+                    "homepage": "https://www.tobtu.com",
+                    "role": "Original Developer"
+                }
+            ],
+            "description": "Constant-time Implementations of RFC 4648 Encoding (Base-64, Base-32, Base-16)",
+            "keywords": [
+                "base16",
+                "base32",
+                "base32_decode",
+                "base32_encode",
+                "base64",
+                "base64_decode",
+                "base64_encode",
+                "bin2hex",
+                "encoding",
+                "hex",
+                "hex2bin",
+                "rfc4648"
+            ],
+            "time": "2022-01-17T05:32:27+00:00"
+        },
+        {
+            "name": "paragonie/random_compat",
+            "version": "v9.99.100",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/random_compat.git",
+                "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/996434e5492cb4c3edcb9168db6fbb1359ef965a",
+                "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 7"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*|5.*",
+                "vimeo/psalm": "^1"
+            },
+            "suggest": {
+                "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com"
+                }
+            ],
+            "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
+            "keywords": [
+                "csprng",
+                "polyfill",
+                "pseudorandom",
+                "random"
+            ],
+            "time": "2020-10-15T08:29:30+00:00"
+        },
+        {
             "name": "pelago/emogrifier",
             "version": "v5.0.1",
             "source": {
@@ -7110,25 +7409,90 @@
             "time": "2019-10-10T13:23:40+00:00"
         },
         {
-            "name": "phpseclib/phpseclib",
-            "version": "2.0.35",
+            "name": "phpseclib/mcrypt_compat",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "4e16cf3f5f927a7d3f5317820af795c0366c0420"
+                "url": "https://github.com/phpseclib/mcrypt_compat.git",
+                "reference": "66a012ebdb8ed373e1e084311f0e8286fd6e378b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/4e16cf3f5f927a7d3f5317820af795c0366c0420",
-                "reference": "4e16cf3f5f927a7d3f5317820af795c0366c0420",
+                "url": "https://api.github.com/repos/phpseclib/mcrypt_compat/zipball/66a012ebdb8ed373e1e084311f0e8286fd6e378b",
+                "reference": "66a012ebdb8ed373e1e084311f0e8286fd6e378b",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=5.6.1",
+                "phpseclib/phpseclib": "^3.0"
+            },
+            "provide": {
+                "ext-mcrypt": "5.6.40"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7|^6.0|^9.4"
+            },
+            "suggest": {
+                "ext-openssl": "Will enable faster cryptographic operations"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/mcrypt.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jim Wigginton",
+                    "email": "terrafrost@php.net",
+                    "homepage": "http://phpseclib.sourceforge.net"
+                }
+            ],
+            "description": "PHP 5.x/7.x polyfill for mcrypt extension",
+            "keywords": [
+                "cryptograpy",
+                "encryption",
+                "mcrypt",
+                "polyfill"
+            ],
+            "funding": [
+                {
+                    "url": "https://www.patreon.com/phpseclib",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/phpseclib/mcrypt_compat",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-12-23T15:58:21+00:00"
+        },
+        {
+            "name": "phpseclib/phpseclib",
+            "version": "3.0.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpseclib/phpseclib.git",
+                "reference": "89bfb45bd8b1abc3b37e910d57f5dbd3174f40fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/89bfb45bd8b1abc3b37e910d57f5dbd3174f40fb",
+                "reference": "89bfb45bd8b1abc3b37e910d57f5dbd3174f40fb",
+                "shasum": ""
+            },
+            "require": {
+                "paragonie/constant_time_encoding": "^1|^2",
+                "paragonie/random_compat": "^1.4|^2.0|^9.99.99",
+                "php": ">=5.6.1"
             },
             "require-dev": {
                 "phing/phing": "~2.7",
-                "phpunit/phpunit": "^4.8.35|^5.7|^6.0|^9.4",
+                "phpunit/phpunit": "^5.7|^6.0|^9.4",
                 "squizlabs/php_codesniffer": "~2.0"
             },
             "suggest": {
@@ -7143,7 +7507,7 @@
                     "phpseclib/bootstrap.php"
                 ],
                 "psr-4": {
-                    "phpseclib\\": "phpseclib/"
+                    "phpseclib3\\": "phpseclib/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -7212,7 +7576,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-28T23:30:39+00:00"
+            "time": "2021-11-28T23:46:03+00:00"
         },
         {
             "name": "psr/container",
