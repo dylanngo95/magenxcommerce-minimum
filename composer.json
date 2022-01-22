@@ -32,6 +32,34 @@
         "laminas/laminas-view": "~2.12.0",
         "magenxcommerce/composer": "1.6.0",
         "magenxcommerce/zendframework1": "~1.14.2",
+        "magenxcommerce/framework": "103.0.3-p1",
+        "magenxcommerce/module-theme": "101.1.3-p1",
+        "magenxcommerce/module-theme-graph-ql": "100.4.1",
+        "magenxcommerce/module-store": "101.1.3",
+        "magenxcommerce/module-store-graph-ql": "100.4.2",
+        "magenxcommerce/module-amqp-store": "100.4.1",
+        "magenxcommerce/theme-adminhtml-backend": "100.4.3-p1",
+        "magenxcommerce/theme-frontend-blank": "100.4.3",
+        "magenxcommerce/theme-frontend-luma": "100.4.3",
+        "magenxcommerce/module-eav": "102.1.3",
+        "magenxcommerce/module-eav-graph-ql": "100.4.1",
+        "magenxcommerce/module-asynchronous-operations": "100.4.3",
+        "magenxcommerce/module-webapi": "100.4.2",
+        "magenxcommerce/module-webapi-async": "100.4.1",
+        "magenxcommerce/module-webapi-security": "100.4.1",
+        "magenxcommerce/module-swagger-webapi": "100.4.0",
+        "magenxcommerce/module-swagger-webapi-async": "100.4.0",
+        "magenxcommerce/module-backend": "102.0.3",
+        "magenxcommerce/module-search": "101.1.3",
+        "magenxcommerce/module-advanced-search": "100.4.1",
+        "magenxcommerce/module-elasticsearch": "101.0.3",
+        "magenxcommerce/module-elasticsearch-6": "100.4.3",
+        "magenxcommerce/module-elasticsearch-7": "100.4.3",
+        "elasticsearch/elasticsearch": "~7.11.0",
+        "colinmollenhour/cache-backend-file": "~1.4.1",
+        "colinmollenhour/cache-backend-redis": "1.11.0",
+        "webonyx/graphql-php": "^0.13.8",
+        "web-token/jwt-framework": "^v2.2.7",
         "monolog/monolog": "^1.17",
         "pelago/emogrifier": "^5.0.0",
         "phpseclib/phpseclib": "2.0.*",
@@ -553,5 +581,37 @@
                 "vendor/.htaccess"
             ]
         ]
-    }
+    },
+    "autoload": {
+        "psr-4": {
+            "Magento\\Framework\\": "lib/internal/Magento/Framework/",
+            "Magento\\Setup\\": "setup/src/Magento/Setup/",
+            "Magento\\": "app/code/Magento/"
+        },
+        "psr-0": {
+            "": [
+                "app/code/",
+                "generated/code/"
+            ]
+        },
+        "files": [
+            "app/etc/NonComposerComponentRegistration.php"
+        ],
+        "exclude-from-classmap": [
+            "**/dev/**",
+            "**/update/**",
+            "**/Test/**"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Magento\\Sniffs\\": "dev/tests/static/framework/Magento/Sniffs/",
+            "Magento\\Tools\\": "dev/tools/Magento/Tools/",
+            "Magento\\Tools\\Sanity\\": "dev/build/publication/sanity/Magento/Tools/Sanity/",
+            "Magento\\TestFramework\\Inspection\\": "dev/tests/static/framework/Magento/TestFramework/Inspection/",
+            "Magento\\TestFramework\\Utility\\": "dev/tests/static/framework/Magento/TestFramework/Utility/",
+            "Magento\\PhpStan\\": "dev/tests/static/framework/Magento/PhpStan/"
+        }
+    },
+    "prefer-stable": true
 }
