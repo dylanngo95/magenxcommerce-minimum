@@ -1,12 +1,13 @@
 {
     "name": "magenxcommerce/magento2-base",
     "description": "Magento 2 Base (Community Edition)",
-    "type": "magento2-component",
+    "type": "project",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
     ],
     "version": "2.4.3-p1",
+    "version_normalized": "2.4.3.0-patch1",
     "require": {
         "magenxcommerce/magento-composer-installer": "*",
         "php": "~7.3.0||~7.4.0",
@@ -56,9 +57,15 @@
         "magenxcommerce/module-elasticsearch-6": "100.4.3",
         "magenxcommerce/module-elasticsearch-7": "100.4.3",
         "magenxcommerce/module-admin-notification": "100.4.2",
+        "magenxcommerce/module-message-queue": "100.4.3",
+        "magenxcommerce/framework-message-queue": "100.4.3",
+        "magenxcommerce/module-mysql-mq": "100.4.1",
         "magenxcommerce/module-configurable-product": "100.4.3",
         "magenxcommerce/module-product-video": "100.4.3",
         "magenxcommerce/module-cookie": "100.4.3",
+        "magenxcommerce/module-offline-shipping": "100.4.2",
+        "magenxcommerce/module-multishipping": "100.4.3",
+        "magenxcommerce/module-offline-payments": "100.4.2",
         "elasticsearch/elasticsearch": "~7.11.0",
         "colinmollenhour/cache-backend-file": "~1.4.1",
         "colinmollenhour/cache-backend-redis": "1.11.0",

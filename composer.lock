@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b266e5df4a182f97c072f942cb85714b",
+    "content-hash": "852ebc07e8a25c77d7f8357d4f146381",
     "packages": [
         {
             "name": "brick/math",
@@ -5183,6 +5183,46 @@
             "time": "2021-10-20T05:38:04+00:00"
         },
         {
+            "name": "magenxcommerce/module-message-queue",
+            "version": "100.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magenxcommerce/module-message-queue.git",
+                "reference": "14ca4d3b6e6b262ea4f3227021b6095ace223f14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magenxcommerce/module-message-queue/zipball/14ca4d3b6e6b262ea4f3227021b6095ace223f14",
+                "reference": "14ca4d3b6e6b262ea4f3227021b6095ace223f14",
+                "shasum": ""
+            },
+            "require": {
+                "magenxcommerce/framework": "103.0.*",
+                "magenxcommerce/framework-message-queue": "100.4.*",
+                "magenxcommerce/magento-composer-installer": "*",
+                "php": "~7.3.0||~7.4.0"
+            },
+            "replace": {
+                "magento/module-message-queue": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\MessageQueue\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A",
+            "time": "2021-10-20T06:16:00+00:00"
+        },
+        {
             "name": "magenxcommerce/module-msrp",
             "version": "100.4.2",
             "source": {
@@ -5230,6 +5270,95 @@
             "time": "2021-10-20T06:20:54+00:00"
         },
         {
+            "name": "magenxcommerce/module-multishipping",
+            "version": "100.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magenxcommerce/module-multishipping.git",
+                "reference": "eb1516dc6eb72e73b707308561707fff57e878db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magenxcommerce/module-multishipping/zipball/eb1516dc6eb72e73b707308561707fff57e878db",
+                "reference": "eb1516dc6eb72e73b707308561707fff57e878db",
+                "shasum": ""
+            },
+            "require": {
+                "magenxcommerce/framework": "103.0.*",
+                "magenxcommerce/module-captcha": "100.4.*",
+                "magenxcommerce/module-checkout": "100.4.*",
+                "magenxcommerce/module-customer": "103.0.*",
+                "magenxcommerce/module-directory": "100.4.*",
+                "magenxcommerce/module-payment": "100.4.*",
+                "magenxcommerce/module-quote": "101.2.*",
+                "magenxcommerce/module-sales": "103.0.*",
+                "magenxcommerce/module-store": "101.1.*",
+                "magenxcommerce/module-tax": "100.4.*",
+                "magenxcommerce/module-theme": "101.1.*",
+                "php": "~7.3.0||~7.4.0"
+            },
+            "replace": {
+                "magento/module-multishipping": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\Multishipping\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A",
+            "time": "2021-10-20T06:33:38+00:00"
+        },
+        {
+            "name": "magenxcommerce/module-mysql-mq",
+            "version": "100.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magenxcommerce/module-mysql-mq.git",
+                "reference": "0c2654f0869043e401fed7061e909128c3d95dc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magenxcommerce/module-mysql-mq/zipball/0c2654f0869043e401fed7061e909128c3d95dc1",
+                "reference": "0c2654f0869043e401fed7061e909128c3d95dc1",
+                "shasum": ""
+            },
+            "require": {
+                "magenxcommerce/framework": "103.0.*",
+                "magenxcommerce/framework-message-queue": "100.4.*",
+                "magenxcommerce/magento-composer-installer": "*",
+                "magenxcommerce/module-store": "101.1.*",
+                "php": "~7.3.0||~7.4.0"
+            },
+            "replace": {
+                "magento/module-mysql-mq": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\MysqlMq\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A",
+            "time": "2021-10-20T06:16:07+00:00"
+        },
+        {
             "name": "magenxcommerce/module-newsletter",
             "version": "100.4.3-p1",
             "source": {
@@ -5275,6 +5404,101 @@
             ],
             "description": "N/A",
             "time": "2021-10-20T05:30:38+00:00"
+        },
+        {
+            "name": "magenxcommerce/module-offline-payments",
+            "version": "100.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magenxcommerce/module-offline-payments.git",
+                "reference": "1a89d7e666672dcf2a4ab1f9509737e6df8bc7bd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magenxcommerce/module-offline-payments/zipball/1a89d7e666672dcf2a4ab1f9509737e6df8bc7bd",
+                "reference": "1a89d7e666672dcf2a4ab1f9509737e6df8bc7bd",
+                "shasum": ""
+            },
+            "require": {
+                "magenxcommerce/framework": "103.0.*",
+                "magenxcommerce/module-checkout": "100.4.*",
+                "magenxcommerce/module-payment": "100.4.*",
+                "magenxcommerce/module-quote": "101.2.*",
+                "php": "~7.3.0||~7.4.0"
+            },
+            "replace": {
+                "magento/module-offline-payments": "*"
+            },
+            "suggest": {
+                "magenxcommerce/module-config": "101.2.*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\OfflinePayments\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A",
+            "time": "2021-10-20T06:33:57+00:00"
+        },
+        {
+            "name": "magenxcommerce/module-offline-shipping",
+            "version": "100.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magenxcommerce/module-offline-shipping.git",
+                "reference": "23b02bd3523d4393121cf25be9587e14d3073dba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magenxcommerce/module-offline-shipping/zipball/23b02bd3523d4393121cf25be9587e14d3073dba",
+                "reference": "23b02bd3523d4393121cf25be9587e14d3073dba",
+                "shasum": ""
+            },
+            "require": {
+                "magenxcommerce/framework": "103.0.*",
+                "magenxcommerce/module-backend": "102.0.*",
+                "magenxcommerce/module-catalog": "104.0.*",
+                "magenxcommerce/module-config": "101.2.*",
+                "magenxcommerce/module-directory": "100.4.*",
+                "magenxcommerce/module-quote": "101.2.*",
+                "magenxcommerce/module-sales": "103.0.*",
+                "magenxcommerce/module-sales-rule": "101.2.*",
+                "magenxcommerce/module-shipping": "100.4.*",
+                "magenxcommerce/module-store": "101.1.*",
+                "php": "~7.3.0||~7.4.0"
+            },
+            "replace": {
+                "magento/module-offline-shipping": "*"
+            },
+            "suggest": {
+                "magenxcommerce/module-checkout": "100.4.*",
+                "magenxcommerce/module-offline-shipping-sample-data": "Sample Data version: 100.4.*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\OfflineShipping\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A",
+            "time": "2021-10-20T06:29:18+00:00"
         },
         {
             "name": "magenxcommerce/module-page-cache",
